@@ -1,0 +1,90 @@
+body{
+    background-color: beige;
+    font-family: 'Times New Roman';
+    
+    height: 100%;
+    width: 100%;
+}
+
+/*el punto es debido a que se ha nombrado para dar 
+atributos a lo que se necesita*/
+.link_menu{
+    color: cadetblue;
+    
+    
+}
+
+/*Este es para los eventos, cuando pase el cursor por encima del link
+cambiará a lo especificado dentro*/
+.link_menu:hover{
+    color: aquamarine;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.link_menu_selected{
+    font-size: 15px;
+    
+    font-weight: bold;
+    font-family: Georgia;
+    
+   
+}
+
+.link-style{
+    color: cadetblue;
+    font-size: 15px;
+    font-family: Georgia;
+    font-weight: bold;
+    
+}
+.link-style:hover{
+    color: aquamarine;
+    font-size: 12px;
+   
+}
+
+#contenedor{
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    align-self: center;
+    background-color: brown;
+
+}
+
+.txt_1{
+    background-color: teal;
+    color: white
+}
+.password_1{
+    background-color: teal;
+    color: white
+}
+.exp_1{
+    background-color: teal;
+    width: 300px; 
+    height: 75px;
+    color: white;
+    text-decoration-color: white;
+    
+}
+.skills_1{
+    background-color: teal;
+    width: 300px;
+    height: 70px;
+    color: white;
+
+}
+@media only screen and (max-width: 2000px){
+
+    #box_content{
+    width: 100%;
+    height: 500px;
+    color: aqua;
+    align-items: center;
+    background-color: yellowgreen;
+    text-align: center;
+    font-size: 68px;
+}
+}

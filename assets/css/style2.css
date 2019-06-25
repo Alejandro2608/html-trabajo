@@ -1,0 +1,104 @@
+body{
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+/*el punto es debido a que se ha nombrado para dar 
+atributos a lo que se necesita*/
+.link_menu{
+    color: cadetblue;
+    
+    
+}
+
+/*Este es para los eventos, cuando pase el cursor por encima del link
+cambiará a lo especificado dentro*/
+.link_menu:hover{
+    color: aquamarine;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.link_menu_selected{
+    font-size: 15px;
+    
+    font-weight: bold;
+    font-family: Georgia;
+    
+   
+}
+
+.link-style{
+    color: cadetblue;
+    font-size: 15px;
+    font-family: Georgia;
+    font-weight: bold;
+    
+}
+.link-style:hover{
+    color: aquamarine;
+    font-size: 12px;
+   
+}
+/*Como ya se habia dicho antes esto es un nombre que se le ha dado al link para
+personalizar, se pueden mas de 1 con un class*/
+
+/*div#name para crear directamente con el nombre,
+ademas para utilizarlo en css es con #name*/
+#box_1{
+    width: 700px;
+    height: 400px;
+    background-color: aquamarine;
+    background-repeat: repeat-x; 
+    margin: 10px;
+    padding: 20px;
+    border: 3px dotted red;
+    border-radius: 25px;
+    /*background-image: url('/assets/images/Gta.jpg')tambien se pude poner
+    una url desde el navegador*/
+    
+}
+
+#box_1 img{
+    width: 100%;
+}
+
+/*#box_2{
+    border-radius: 200px;
+}
+#box_2 img{
+
+}*/
+
+.round-img{
+    border: 3px solid red;
+    border-radius: 300px;
+}
+
+.table_cl{
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+}
+.txt_1{
+    background-color: aquamarine;
+    border-color: brown solid;
+}
+
+.txt-cl[type=text]{
+    background-color: cyan;
+    width: 100px;
+    height: 30px;
+    color: teal;
+
+}
+@media only screen and (max-width: 768px){
+
+    #box_content{
+    width: 50%;
+    height: 500px;
+    color: aqua;
+    align-items: center;
+    background-color: yellowgreen;
+}
+}
