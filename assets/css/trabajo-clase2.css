@@ -1,5 +1,5 @@
 body{
-    background-color: beige;
+    background-image: url("/assets/images/Beautifull.jpg");
     font-family: 'Times New Roman';
     
     height: 100%;
@@ -49,8 +49,7 @@ cambiará a lo especificado dentro*/
     height: 70%;
     margin: 0 auto;
     align-self: center;
-    background-color: brown;
-
+    background-color: #349E89;
 }
 
 .txt_1{
